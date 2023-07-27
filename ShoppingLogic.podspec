@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'ShoppingLogic'
-  s.version          = '0.1.0'
+  s.version          = '0.2.0'
   s.summary          = 'A short description of ShoppingLogic.'
 
   s.description      = <<-DESC
@@ -17,5 +17,5 @@ Pod::Spec.new do |s|
   s.source_files     = 'ShoppingLogic', 'ShoppingLogic/**/*.{h,m,swift}'
   s.public_header_files = 'ShoppingLogic/**/*.h'
 
-  s.dependency 'AFNetworking', '~> 4.0'
+  s.dependency 'Alamofire'
 end
