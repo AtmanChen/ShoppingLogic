@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A408F60843B52E2D25EE9EF /* Pods_ShoppingLogic_ShoppingLogicTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C224C143B6DFF3799EC1974F /* Pods_ShoppingLogic_ShoppingLogicTests.framework */; };
+		71AC6C352A7270B000FE77DE /* ShoppingLogic.docc in Sources */ = {isa = PBXBuildFile; fileRef = 71AC6C342A7270B000FE77DE /* ShoppingLogic.docc */; };
+		71AC6C3B2A7270B000FE77DE /* ShoppingLogic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71AC6C302A7270B000FE77DE /* ShoppingLogic.framework */; };
+		71AC6C402A7270B000FE77DE /* ShoppingLogicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71AC6C3F2A7270B000FE77DE /* ShoppingLogicTests.swift */; };
+		71AC6C412A7270B000FE77DE /* ShoppingLogic.h in Headers */ = {isa = PBXBuildFile; fileRef = 71AC6C332A7270B000FE77DE /* ShoppingLogic.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FF07BA3ED50C1E00BE72F333 /* Pods_ShoppingLogic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 111D74ECC4B43F0BB9EF39D1 /* Pods_ShoppingLogic.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		71AC6C3C2A7270B000FE77DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 71AC6C272A7270B000FE77DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 71AC6C2F2A7270B000FE77DE;
+			remoteInfo = ShoppingLogic;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		111D74ECC4B43F0BB9EF39D1 /* Pods_ShoppingLogic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShoppingLogic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C283B3221C23E106FAE23F2 /* Pods-ShoppingLogic.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShoppingLogic.debug.xcconfig"; path = "Target Support Files/Pods-ShoppingLogic/Pods-ShoppingLogic.debug.xcconfig"; sourceTree = "<group>"; };
+		21FCA5B61D6EDA93940F8D81 /* Pods-ShoppingLogic.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShoppingLogic.release.xcconfig"; path = "Target Support Files/Pods-ShoppingLogic/Pods-ShoppingLogic.release.xcconfig"; sourceTree = "<group>"; };
+		71AC6C302A7270B000FE77DE /* ShoppingLogic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ShoppingLogic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		71AC6C332A7270B000FE77DE /* ShoppingLogic.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShoppingLogic.h; sourceTree = "<group>"; };
+		71AC6C342A7270B000FE77DE /* ShoppingLogic.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = ShoppingLogic.docc; sourceTree = "<group>"; };
+		71AC6C3A2A7270B000FE77DE /* ShoppingLogicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShoppingLogicTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		71AC6C3F2A7270B000FE77DE /* ShoppingLogicTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingLogicTests.swift; sourceTree = "<group>"; };
+		7B3FF97053E3F83BEADF6FFA /* Pods-ShoppingLogic-ShoppingLogicTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShoppingLogic-ShoppingLogicTests.debug.xcconfig"; path = "Target Support Files/Pods-ShoppingLogic-ShoppingLogicTests/Pods-ShoppingLogic-ShoppingLogicTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C224C143B6DFF3799EC1974F /* Pods_ShoppingLogic_ShoppingLogicTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShoppingLogic_ShoppingLogicTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9B6D9667A6F6458DE8AE817 /* Pods-ShoppingLogic-ShoppingLogicTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShoppingLogic-ShoppingLogicTests.release.xcconfig"; path = "Target Support Files/Pods-ShoppingLogic-ShoppingLogicTests/Pods-ShoppingLogic-ShoppingLogicTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		71AC6C2D2A7270B000FE77DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF07BA3ED50C1E00BE72F333 /* Pods_ShoppingLogic.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71AC6C372A7270B000FE77DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71AC6C3B2A7270B000FE77DE /* ShoppingLogic.framework in Frameworks */,
+				0A408F60843B52E2D25EE9EF /* Pods_ShoppingLogic_ShoppingLogicTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		058E6E1B201203498C0220C5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				111D74ECC4B43F0BB9EF39D1 /* Pods_ShoppingLogic.framework */,
+				C224C143B6DFF3799EC1974F /* Pods_ShoppingLogic_ShoppingLogicTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		19C8EFEFF2689A04EC8E43AF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1C283B3221C23E106FAE23F2 /* Pods-ShoppingLogic.debug.xcconfig */,
+				21FCA5B61D6EDA93940F8D81 /* Pods-ShoppingLogic.release.xcconfig */,
+				7B3FF97053E3F83BEADF6FFA /* Pods-ShoppingLogic-ShoppingLogicTests.debug.xcconfig */,
+				F9B6D9667A6F6458DE8AE817 /* Pods-ShoppingLogic-ShoppingLogicTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		71AC6C262A7270B000FE77DE = {
+			isa = PBXGroup;
+			children = (
+				71AC6C322A7270B000FE77DE /* ShoppingLogic */,
+				71AC6C3E2A7270B000FE77DE /* ShoppingLogicTests */,
+				71AC6C312A7270B000FE77DE /* Products */,
+				19C8EFEFF2689A04EC8E43AF /* Pods */,
+				058E6E1B201203498C0220C5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		71AC6C312A7270B000FE77DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				71AC6C302A7270B000FE77DE /* ShoppingLogic.framework */,
+				71AC6C3A2A7270B000FE77DE /* ShoppingLogicTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		71AC6C322A7270B000FE77DE /* ShoppingLogic */ = {
+			isa = PBXGroup;
+			children = (
+				71AC6C332A7270B000FE77DE /* ShoppingLogic.h */,
+				71AC6C342A7270B000FE77DE /* ShoppingLogic.docc */,
+			);
+			path = ShoppingLogic;
+			sourceTree = "<group>";
+		};
+		71AC6C3E2A7270B000FE77DE /* ShoppingLogicTests */ = {
+			isa = PBXGroup;
+			children = (
+				71AC6C3F2A7270B000FE77DE /* ShoppingLogicTests.swift */,
+			);
+			path = ShoppingLogicTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		71AC6C2B2A7270B000FE77DE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71AC6C412A7270B000FE77DE /* ShoppingLogic.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		71AC6C2F2A7270B000FE77DE /* ShoppingLogic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71AC6C442A7270B000FE77DE /* Build configuration list for PBXNativeTarget "ShoppingLogic" */;
+			buildPhases = (
+				811FC0901F019AD09DACDB88 /* [CP] Check Pods Manifest.lock */,
+				71AC6C2B2A7270B000FE77DE /* Headers */,
+				71AC6C2C2A7270B000FE77DE /* Sources */,
+				71AC6C2D2A7270B000FE77DE /* Frameworks */,
+				71AC6C2E2A7270B000FE77DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShoppingLogic;
+			productName = ShoppingLogic;
+			productReference = 71AC6C302A7270B000FE77DE /* ShoppingLogic.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		71AC6C392A7270B000FE77DE /* ShoppingLogicTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71AC6C472A7270B000FE77DE /* Build configuration list for PBXNativeTarget "ShoppingLogicTests" */;
+			buildPhases = (
+				AA3E11BF402C43E07534C964 /* [CP] Check Pods Manifest.lock */,
+				71AC6C362A7270B000FE77DE /* Sources */,
+				71AC6C372A7270B000FE77DE /* Frameworks */,
+				71AC6C382A7270B000FE77DE /* Resources */,
+				609077678BE0558861822BFE /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				71AC6C3D2A7270B000FE77DE /* PBXTargetDependency */,
+			);
+			name = ShoppingLogicTests;
+			productName = ShoppingLogicTests;
+			productReference = 71AC6C3A2A7270B000FE77DE /* ShoppingLogicTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		71AC6C272A7270B000FE77DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					71AC6C2F2A7270B000FE77DE = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					71AC6C392A7270B000FE77DE = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 71AC6C2A2A7270B000FE77DE /* Build configuration list for PBXProject "ShoppingLogic" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 71AC6C262A7270B000FE77DE;
+			productRefGroup = 71AC6C312A7270B000FE77DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				71AC6C2F2A7270B000FE77DE /* ShoppingLogic */,
+				71AC6C392A7270B000FE77DE /* ShoppingLogicTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		71AC6C2E2A7270B000FE77DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71AC6C382A7270B000FE77DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		609077678BE0558861822BFE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ShoppingLogic-ShoppingLogicTests/Pods-ShoppingLogic-ShoppingLogicTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ShoppingLogic-ShoppingLogicTests/Pods-ShoppingLogic-ShoppingLogicTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ShoppingLogic-ShoppingLogicTests/Pods-ShoppingLogic-ShoppingLogicTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		811FC0901F019AD09DACDB88 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ShoppingLogic-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AA3E11BF402C43E07534C964 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ShoppingLogic-ShoppingLogicTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		71AC6C2C2A7270B000FE77DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71AC6C352A7270B000FE77DE /* ShoppingLogic.docc in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71AC6C362A7270B000FE77DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71AC6C402A7270B000FE77DE /* ShoppingLogicTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		71AC6C3D2A7270B000FE77DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 71AC6C2F2A7270B000FE77DE /* ShoppingLogic */;
+			targetProxy = 71AC6C3C2A7270B000FE77DE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		71AC6C422A7270B000FE77DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		71AC6C432A7270B000FE77DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		71AC6C452A7270B000FE77DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C283B3221C23E106FAE23F2 /* Pods-ShoppingLogic.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = (
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lamberthyl.ShoppingLogic;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = auto;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		71AC6C462A7270B000FE77DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21FCA5B61D6EDA93940F8D81 /* Pods-ShoppingLogic.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = (
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lamberthyl.ShoppingLogic;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = auto;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		71AC6C482A7270B000FE77DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B3FF97053E3F83BEADF6FFA /* Pods-ShoppingLogic-ShoppingLogicTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lamberthyl.ShoppingLogicTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		71AC6C492A7270B000FE77DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9B6D9667A6F6458DE8AE817 /* Pods-ShoppingLogic-ShoppingLogicTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lamberthyl.ShoppingLogicTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		71AC6C2A2A7270B000FE77DE /* Build configuration list for PBXProject "ShoppingLogic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71AC6C422A7270B000FE77DE /* Debug */,
+				71AC6C432A7270B000FE77DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71AC6C442A7270B000FE77DE /* Build configuration list for PBXNativeTarget "ShoppingLogic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71AC6C452A7270B000FE77DE /* Debug */,
+				71AC6C462A7270B000FE77DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71AC6C472A7270B000FE77DE /* Build configuration list for PBXNativeTarget "ShoppingLogicTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71AC6C482A7270B000FE77DE /* Debug */,
+				71AC6C492A7270B000FE77DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 71AC6C272A7270B000FE77DE /* Project object */;
+}
